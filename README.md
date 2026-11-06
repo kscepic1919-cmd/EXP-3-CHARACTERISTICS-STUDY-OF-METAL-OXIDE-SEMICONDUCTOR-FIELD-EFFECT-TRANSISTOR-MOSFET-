@@ -24,11 +24,13 @@ Saturation Region: The MOSFET operates in saturation when VGS > VT and VDS ≥ (
 Drain resistance is obtained from the slope of the drain characteristic:
 rd = dVDS / dID    (with VGS kept constant)
 4. CIRCUIT DIAGRAM
+   <img width="972" height="1080" alt="Screenshot 2026-11-06 085218" src="https://github.com/user-attachments/assets/a38ad2d2-652f-47eb-b5e8-cdbcc3599115" />
+
 A. Transfer Characteristics – Connect the MOSFET circuit in LTspice. VGS is varied while maintaining a constant VDS, and the corresponding ID is observed.
 [Insert LTspice Transfer Characteristics Circuit Diagram Here]
 B. Drain Characteristics – Connect the MOSFET circuit in LTspice. VDS is varied for different constant values of VGS, and the corresponding ID is observed.
 [Insert LTspice Drain Characteristics Circuit Diagram Here]
-5. PROCEDURE
+6. PROCEDURE
 A. Transfer Characteristics
 4.	Connect the MOSFET circuit as per the circuit diagram in LTspice.
 5.	Set the required VGS and VDS values.
@@ -70,6 +72,7 @@ S. No.	VDS (V)	VGS (V)	ID (mA)
 8			
 Repeat the observation for different constant values of VGS.
 Simulation Results
+<img width="946" height="1080" alt="output" src="https://github.com/user-attachments/assets/f2adfdf5-c258-4bfe-bc94-5c4698ebd5c8" />
 
  ID vs. VDS for different values of VGS.
 
